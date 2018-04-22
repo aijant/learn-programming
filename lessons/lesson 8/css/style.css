@@ -1,0 +1,66 @@
+body {
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.3;
+    background: #FFF;
+    min-width: 800px;
+}
+.container{
+	width:  800px;
+	margin: 0 auto;
+}
+/*.list li:first-child{
+	font-weight: bold;
+	color: red;
+}
+
+
+.list li:last-child{
+	font-style: italic;
+	color: green;
+}*/
+
+/*.list{
+	list-style: none;
+	margin:  0 0 20px;
+	padding:  0;
+	width: 300%;
+}
+
+.list li{
+	position: relative;
+	/*border: 1px solid red;*/
+	/*padding: 0 0 10px 25px;/
+}
+.list li::before,.list li::after{
+	content: " ";
+	border-radius: 50px;
+	position: absolute;
+	
+}
+
+.list li::before{
+	width: 10px;
+	height: 10px;
+	background: gold;
+	border: 2px solid green;
+	top: 4px;
+	left: 0;
+	z-index: 10px;
+}
+.list li::after{
+	width: 5px;
+	height: 5px;
+	background: green;
+	top: 4;
+	left: 0;
+	z-index: 11px;
+}
+
+.list li:hover{
+	color: gold;
+}
+.list li:hover::before{
+	background: gold;
+}*/
+

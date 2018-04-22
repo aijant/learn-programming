@@ -1,0 +1,51 @@
+.shadow-txt{
+	color: #ea4090;
+	font-size: 40px;
+	text-shadow: 1px 2px 3px #666;
+}
+.shadow-box{
+	margin:  20px;
+	padding: 30px 15px;
+	background: yellow;
+	webkit-box-shadow:10px 8px 5px 0 rgba(0,0,0,0.5) inset;
+	-moz-box-shadow: 10px 8px 5px 0 rgba(0,0,0,0.5) inset;
+	box-shadow: -2px 20px 30px 0px rgba(0, 0, 0, 0.5) inset;
+	width: 200px;
+	height: 100px;
+}
+
+.btn-add{
+	border: 0;
+	background:  #40c781 url(.../imges/ic-arrow.png)174px 15px no-repeat;
+	padding: 0 30px 0 10px; 
+	height: 46px;
+	color:  #fff;
+	font-size:  16px;
+	font-weight: bold;
+	line-height: 44px;
+	border-radius: 3px;
+	box-shadow: 0 -3px #34a76e inset;
+	cursor: pointer;
+}
+.block {
+  background: green;
+  position: relative;
+  width: 180px;
+  height: 50px;
+  left: 50px;
+  text-align: center;
+  display: table;
+}
+.block::before {
+  content: '';
+  position: absolute;
+  left: -50px;
+  border: 25px solid transparent;
+  border-right: 25px solid green;
+}
+#text {
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  font-size: 18px;
+}

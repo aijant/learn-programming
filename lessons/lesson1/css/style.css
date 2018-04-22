@@ -1,0 +1,33 @@
+h1{color: red;
+}
+h1 {    text-decoration: overline;
+}
+<h2 style="background-color:DodgerBlue;">Hello World</h2>
+p{background: green;
+}
+myclass{
+  color: blue;
+}
+div{color: blue
+}
+b{font-size:35px;}
+span {font-style: italic;}
+id {font-weight: bold;}
+img{width: 250px;
+  height: 230px;
+  border-radius: 15px;
+}
+table{height: 100px;
+    width: 20%;
+    background-color: powderblue;
+
+  }
+    table, th, td { border: 1px solid black;
+    }
+input{type="aijan_r1@mail.ru"}
+input{type="submit"
+      color: color:rgb(0,0,255);opacity:0.6;}
+ol{list-style: square}
+a{background: black;
+    width: 300px;
+}

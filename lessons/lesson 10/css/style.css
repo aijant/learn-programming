@@ -1,0 +1,56 @@
+body {
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.3;
+    background: #FFF;
+    min-width: 900px;
+}
+.container{
+	width:  1000px;
+	margin: 0 auto;
+}
+
+.block{
+	padding: 30px 0;
+}
+.tbl{
+	border: 1px solid red;
+}
+
+.tbl td,.tbl th{
+	border: 1px solid red;
+	padding: 10px;
+}
+.tbl thead td, .tbl th{
+	background: #ccc;
+	font-weight: normal;
+	font-style: italic;
+}
+.tbl tfoot td{
+	background: #ccc;
+	padding: 5px 10px;
+}
+.tbl tbody tr:nth-child(2n) td{
+	background: lightblue;
+}
+.tbl tbody tr td:nth-child(2n+1) {
+	background: gold;
+}
+
+.tbl tbody tr:first-child td:nth-child(3) {
+	background: pink;
+}
+
+.tbl caption{
+	padding:  5px;
+	color: red;
+}
+.w100{
+	width: 100px;
+}
+.w200{
+	width: 200px;
+}
+.tbl tr:hover td{
+	background: green;
+}
