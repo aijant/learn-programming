@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="" ="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet"  href="css/style.css">		
+</head>
+<body>
+	<header class="container">
+		<a href="#" class="logo"><img src="img/logo.jpg" alt=""></a>
+		<nav>
+			<ul>
+				<li><a href="#">Каталог мебели</a></li>
+				<li><a href="#">Другие работы</a></li>
+				<li><a href="#">Как мы работаем?</a></li>
+				<li><a href="#">Как мы работаем?</a></li>
+				<li><a href="#">Почему мы?</a></li>
+				<li><a href="#">Гарантия</a></li>
+			</ul>
+	</header>
+
+
+	<article class="container">
+		<div class="block block-1">
+			<h1>Новости</h1>
+			<p>13.02.2013 <a href="http://www.yandex.ru">Aкция! Тем, кто закажет кухню в течении ближайших двух недель - микроволновая печь в подарок!</a></p>
+			<p>14.02.2013 <a href="http://www.yandex.ru">Видео “Как мы работает”. Репортаж нашего офиса.</a></p>
+			<p>15.02.2013 <a href="http://www.yandex.ru">Видео “Как мы работаем”. Репортаж из мебельного цеха.</a></p>
+			<p>16.02.2013 <a href="http://www.yandex.ru">Новые отзывы от  довольных клиентов.</a></p>
+		</div>
+		
+		<div class="block block-2">
+			<h1>Кухни</h1>
+			<div class="item">
+				<div class="item-1">
+					<div class="img">
+						<img src="img/photo-1.jpg" alt="">
+					</div> 
+					<div class="info">
+						<h3>Кухня “Студия Б52”</h3>
+						<p>Интерьер создает впечатление уютного заведения: барная стойка, подвестка, удобная фурнитура.</p>
+							<p>Теперь вы можете устраивать  вечеринки в любой время, в обственной студии!</p>
+					</div>
+				</div>
+				<div class="item-2">
+					<div class="img">
+						<img src="img/photo-2.jpg" alt="">
+					</div> 
+					<div class="info">
+						<h3>Кухня “Family”</h3>
+						<p>Сочетание современных технологий и натуральных материалов - отличный выбор для обустройства вашего дома. <br>Встраиваемая бытовая техника от итальянских производителей, бесшумная</p>
+					</div>
+				</div>
+				<div class="item-3">
+					<div class="img">
+						<img src="img/photo-3.jpg" alt="">
+					</div> 
+					<div class="info">
+						<h3>Кухня “Техно”</h3>
+						<p>Сходство современных технологий: четкие линии, “умная” бытовая техника, безопасные материалы.</p>
+						<p>Стоимость выполнения заказ (на фото) - 85 500 рублей. В стоимость вошли: вызов замерщика, доставка, сборка, установка и подключение бытовой техники.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+
+	<footer class="container">
+		<h4>Тел. <span>(8862)-37-35-18 </span>E-mail: form2088@yandex.ru</h4>
+	</footer>
+
+</body>
+</html>

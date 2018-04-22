@@ -1,0 +1,32 @@
+.container {
+	width: 1008px;
+
+}
+header{
+	height: 62px;
+	background-color: #02918c;  
+}
+.about{
+	text-align: center;
+}
+.box{
+	display: inline-block;
+	padding-right: 20px;
+	text-align: center;
+	width: 229px;
+}
+.box1{
+	height: 46px;
+    background-color: #02918c;
+    font-family: bold;
+}
+footer{
+	height: 79px;
+	background-color:#000;
+}
+.footer-text{
+	color: #7e8287;
+	font-size:12px;
+	font-weight: normal;
+
+}

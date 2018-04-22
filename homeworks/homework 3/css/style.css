@@ -1,0 +1,25 @@
+body{
+	font-family: arial, sans-serif;
+	min-width: 800px;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 998px;
+	margin: 0 auto;
+}
+
+header{
+	padding: 20px 0 20px;
+}
+.logo{
+	font-size: 37px;
+	color: #424242;
+	font-weight: bold;
+	text-decoration: none;
+	background: url(../img/logo.png) 0 0 no-repeat;
+	padding-left: 90px;
+	display: inline-block;
+	padding-bottom: 5px;
+}
